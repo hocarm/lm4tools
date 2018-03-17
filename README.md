@@ -1,5 +1,7 @@
 lm4tools
 ========
+Original repo is git clone https://github.com/utzig/lm4tools
+Add libusb to fix problem when make
 
 Some tools which enable multi-platform development on the TI Stellaris Launchpad boards. The Stellaris Launchpad is a low cost development board created by Texas Instruments that comes with an ARM Cortex-M4F processor. You can get one here:
 
