@@ -4,7 +4,7 @@ CC ?= gcc
 CFLAGS += -Wall
 
 ifeq ($(shell uname),FreeBSD)
-LDFLAGS += -lusb-1.0
+LDFLAGS += -lusb
 else
 CFLAGS += $(shell pkg-config --cflags libusb-1.0)
 LDFLAGS += $(shell pkg-config --libs libusb-1.0)
